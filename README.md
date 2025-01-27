@@ -34,7 +34,10 @@ It includes:
 ## Multi-Step LSTM Model
 - Forecasts multiple future time steps for temperature and pressure.
 - Includes Vector Output and Encoder-Decoder architectures.
-- 
+
+## Evaluation
+- The result is evaluated using MSE (Mean Squared Error) and RMSE (Root Mean Squared Error) as it is a regression model for each model.
+
 
 
 
