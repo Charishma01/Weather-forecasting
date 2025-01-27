@@ -1,5 +1,6 @@
 # Weather-forecasting using LSTM Model
-This project demonstrates how to use LSTM models for predicting weather conditions, specifically temperature and pressure. The models include:
+This project demonstrates how to use Long Short-Term Memory (LSTM) models for predicting weather conditions, specifically temperature and pressure. The models include various architectures designed for univariate, multivariate, and multi-step forecasting.
+
 
 ## Introduction
 This repository contains code for building and training LSTM models for weather forecasting. 
@@ -20,6 +21,17 @@ It includes:
 - NumPy
 - Matplotlib
 - Pandas
+
+  ##Approach
+  1. Univariate LSTM Models
+     -Predicts a single variable (e.g., temperature) using past data.
+     -Implements Vanilla, Stacked, Bidirectional, CNN-LSTM, and ConvLSTM architectures.
+  2.Multivariate LSTM Model
+     -Uses multiple input features (e.g., temperature, humidity) for enhanced predictions.
+  3.Multi-Step LSTM Model
+     -Forecasts multiple future time steps for temperature and pressure.
+     -Includes Vector Output and Encoder-Decoder architectures.
+  
 
 
 
