@@ -1,7 +1,11 @@
 # Weather-forecasting using LSTM Model
 This project demonstrates how to use LSTM models for predicting weather conditions, specifically temperature and pressure. The models include:
 
-Univariate LSTM: Predicts future temperature using past temperature data.
-Multivariate LSTM: Uses multiple weather variables to predict temperature and pressure.
-Multi-Step LSTM: Forecasts temperature and pressure for several future time steps.
+## Introduction
+This repository contains code for building and training LSTM models for weather forecasting. 
+It includes:
+- Univariate LSTM: Predicts temperature using past temperature data.
+- Multivariate LSTM: Uses multiple weather features for forecasting.
+- Multi-Step LSTM: Forecasts temperature and pressure for multiple future time steps.
+
 
