@@ -36,7 +36,12 @@ It includes:
 - Includes Vector Output and Encoder-Decoder architectures.
 
 ## Evaluation
-- The result is evaluated using MSE (Mean Squared Error) and RMSE (Root Mean Squared Error) as it is a regression model for each model.
+- The performance of each model is evaluated using two key metrics:
+  - **MSE (Mean Squared Error)**: Measures the average squared difference between the actual and predicted values, giving a sense of the model's overall prediction accuracy. A lower MSE indicates better performance.
+  - **RMSE (Root Mean Squared Error)**: The square root of MSE, which provides an error metric in the same units as the predicted variable. It is more interpretable and helps in understanding the magnitude of error in predictions.
+
+- Both MSE and RMSE are calculated for each model, and the model with the lowest values indicates the best performance in terms of prediction accuracy for temperature and pressure forecasting.
+
 
 
 
