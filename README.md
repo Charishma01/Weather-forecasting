@@ -8,4 +8,19 @@ It includes:
 - Multivariate LSTM: Uses multiple weather features for forecasting.
 - Multi-Step LSTM: Forecasts temperature and pressure for multiple future time steps.
 
+## Features
+- Forecasts temperature and pressure.
+- Handles single-step and multi-step predictions.
+- Supports both univariate and multivariate time series.
+- Visualizes actual vs predicted values.
+
+## Technologies Used
+- Python
+- TensorFlow/Keras
+- NumPy
+- Matplotlib
+- Pandas
+
+
+
 
