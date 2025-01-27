@@ -24,13 +24,13 @@ It includes:
 
 ## Approach
 1. Univariate LSTM Models
-   -Predicts a single variable (e.g., temperature) using past data.
-   -Implements Vanilla, Stacked, Bidirectional, CNN-LSTM, and ConvLSTM architectures.
+-Predicts a single variable (e.g., temperature) using past data.
+-Implements Vanilla, Stacked, Bidirectional, CNN-LSTM, and ConvLSTM architectures.
 2.Multivariate LSTM Model
-   -Uses multiple input features (e.g., temperature, humidity) for enhanced predictions.
+-Uses multiple input features (e.g., temperature, humidity) for enhanced predictions.
 3.Multi-Step LSTM Model
-   -Forecasts multiple future time steps for temperature and pressure.
-   -Includes Vector Output and Encoder-Decoder architectures.
+-Forecasts multiple future time steps for temperature and pressure.
+-Includes Vector Output and Encoder-Decoder architectures.
   
 
 
