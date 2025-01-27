@@ -31,6 +31,17 @@ Multivariate LSTM Model:
 Multi-Step LSTM Model:
 -Forecasts multiple future time steps for temperature and pressure.
 -Includes Vector Output and Encoder-Decoder architectures.
+## Univariate LSTM Models
+- Predicts a single variable (e.g., temperature) using past data.
+- Implements Vanilla, Stacked, Bidirectional, CNN-LSTM, and ConvLSTM architectures.
+
+## Multivariate LSTM Model
+- Uses multiple input features (e.g., temperature, humidity) for enhanced predictions.
+
+## Multi-Step LSTM Model
+- Forecasts multiple future time steps for temperature and pressure.
+- Includes Vector Output and Encoder-Decoder architectures.
+
 
 
 
