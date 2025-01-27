@@ -1,19 +1,7 @@
-# Weather-forecasting
-weather-lstm-prediction/
-│
-├── data/
-│   ├── Weather_Data.csv       # Original dataset
-│   ├── Processed_Weather_Data.csv  # Processed dataset after cleaning
-│
-├── models/
-│   ├── univariate_lstm.py     # Univariate LSTM model
-│   ├── multivariate_lstm.py   # Multivariate LSTM model
-│   ├── multi_step_lstm.py     # Multi-step LSTM model
-│
-├── visualizations/
-│   ├── loss_plot.png          # Training/validation loss plot
-│   ├── prediction_plot.png    # Actual vs Predicted plot
-│
-├── README.md                  # Project documentation
-├── requirements.txt           # Python dependencies
-└── train_model.py             # Main script to train LSTM models
+# Weather-forecasting using LSTM Model
+This project demonstrates how to use LSTM models for predicting weather conditions, specifically temperature and pressure. The models include:
+
+Univariate LSTM: Predicts future temperature using past temperature data.
+Multivariate LSTM: Uses multiple weather variables to predict temperature and pressure.
+Multi-Step LSTM: Forecasts temperature and pressure for several future time steps.
+
