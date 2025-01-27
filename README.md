@@ -23,7 +23,7 @@ It includes:
 - Pandas
 
 ## Approach
-- 1. Univariate LSTM Models:
+Univariate LSTM Models:
 - Predicts a single variable (e.g., temperature) using past data.
 - Supports both univariate and multivariate time series.
 - Visualizes actual vs predicted values.
