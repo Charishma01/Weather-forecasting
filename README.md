@@ -22,7 +22,7 @@ It includes:
 - Matplotlib
 - Pandas
 
-  ##Approach
+## Approach
   1. Univariate LSTM Models
      -Predicts a single variable (e.g., temperature) using past data.
      -Implements Vanilla, Stacked, Bidirectional, CNN-LSTM, and ConvLSTM architectures.
